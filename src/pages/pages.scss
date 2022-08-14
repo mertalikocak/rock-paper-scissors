@@ -28,6 +28,7 @@ $small: 630px;
       grid-area: 1 / 1 / 2 / 4;
       display: flex;
       flex-direction: column;
+      justify-content: center;
 
       align-items: center;
       h1 {
@@ -48,6 +49,7 @@ $small: 630px;
         width: 100%;
         display: flex;
         justify-content: space-around;
+        padding-inline-start: 0;
         li {
           display: inline;
           border-radius: 50%;
@@ -92,6 +94,7 @@ $small: 630px;
           align-items: center;
         }
         img {
+          margin-top: 10%;
           width: 150px;
           height: 150px;
           @media screen and (max-width: $small) {
@@ -123,8 +126,13 @@ $small: 630px;
       button {
         margin-top: 2%;
         width: 12vw;
-        height: 2vw;
+        height: 3vw;
         font-size: 1.5vw;
+        @media screen and (max-width: $small) {
+          height: 6vw;
+          font-size: 4vw;
+          width: 25vw;
+        }
         font-family: "DynaPuff", cursive;
         border: 2px solid red;
         background-color: #ff6200;
