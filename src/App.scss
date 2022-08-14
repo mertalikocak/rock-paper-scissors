@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&display=swap");
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0 1fr 1fr 12vh;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  min-height: 100vh;
+  background-color: #ff8300;
+  font-family: "DynaPuff", cursive;
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 5;
+}
+
+.main {
+  grid-area: 2 / 1 / 4 / 5;
+}
+
+.footer {
+  grid-area: 4 / 1 / 5 / 5;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 5%;
+  font-size: 1.3vw;
+  @media screen and (max-width: "945px") {
+    font-size: 2vw;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
