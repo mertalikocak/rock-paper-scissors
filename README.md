@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-If you wanna try this project: rockpaperscissor-mak.herokuapp.com
+If you wanna try this project: https://rockpaperscissor-mak.herokuapp.com
 
 
 ## Available Scripts
